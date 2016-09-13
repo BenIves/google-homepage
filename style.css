@@ -1,0 +1,57 @@
+.menu-r {
+	float:right;
+}
+
+.menu-r > a {
+	margin:4px 4px 0 0;
+	padding:0;
+	text-decoration: none;
+	color:#000;
+}
+
+.menu-r > a:hover {
+	text-decoration: underline;
+}
+
+.menu-r > a:hover:nth-child(4) {
+	text-decoration: none;
+}
+
+.menu-r > img {
+	position: relative;
+	top: 5px;
+}
+
+.signin {
+	color: #fff;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	margin: 10px;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+.main {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo {
+	background-image: url('https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png');
+	background-repeat: no-repeat;
+	height: 92px;
+	max-width: 272px;
+	margin: 0 auto;
+	top: 200px;
+	position: relative;
+}
+
+.search {
+	top: 220px;
+	position: relative;
+}
+
+
+.search > input {
+	width: 350px;
+}
